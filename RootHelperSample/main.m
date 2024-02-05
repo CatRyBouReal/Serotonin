@@ -366,7 +366,7 @@ int main(int argc, char *argv[], char *envp[]) {
                     // remove workinglaunchd
                     [[NSFileManager defaultManager] removeItemAtPath:[usprebooterappPath() stringByAppendingPathComponent:@"workinglaunchd"] error:nil];
 //                } else {
-//                    NSLog(@"lunchd was found, you've already installed");
+//                    NSLog(@"launchd was found, you've already installed");
 //                }
             }
         } else if ([action isEqual: @"uninstall"]) {
