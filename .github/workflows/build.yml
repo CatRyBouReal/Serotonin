@@ -2,7 +2,7 @@ name: Build Serotonin
 
 on:
   push:
-    branches: [ main ]
+    branches: [ meow ]
   workflow_dispatch:
 
 jobs:
